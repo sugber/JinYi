@@ -1,4 +1,5 @@
 import logging
+import os
 
 logging.basicConfig(
     level=logging.INFO,
@@ -8,7 +9,8 @@ logging.basicConfig(
     filemode='a'
 )
 
-
+prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+report_file = os.path.join(prj_path,'report', 'report.html')
 data_file = r'C:\Users\dell\PycharmProjects\JinYi\data\TestData.xlsx'
 
 
@@ -20,3 +22,4 @@ smtp_password = 'OQPCJZPTVDJGEGWI'
 sender = smtp_user  # 发件人
 receiver = 'chengyongda@woaizuji.com'  # 收件人
 subject = '接口测试报告'  # 邮件主题
+
