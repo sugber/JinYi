@@ -1,50 +1,75 @@
-20-04-09 16:57:06 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 16:57:06 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 16:57:06 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 16:57:06 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 16:57:06 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 16:57:06 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 16:57:06 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjQ0MjcxNDMsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.R73RRieHlk7hoDgbpUSvgbRLRZHPaVhQ9Zd1BnI9A0A"}
-20-04-09 16:57:07 ERROR send_email send_email.py 28 (535, b'Error: authentication failed')
-20-04-09 16:57:07 INFO <module> run.py 13 ================================== 测试结束 ==================================
-20-04-09 17:00:08 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 17:00:09 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 17:00:09 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 17:00:09 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 17:00:09 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 17:00:09 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 17:00:09 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjQ2MDk1MzAsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.1LbfGS65_6kjcx3wyfcDc8dLaU87MDapSejsBcM2cu4"}
-20-04-09 17:00:09 INFO send_email send_email.py 24 邮件发送完成！
-20-04-09 17:00:09 INFO <module> run.py 13 ================================== 测试结束 ==================================
-20-04-09 17:08:22 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 17:08:22 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 17:08:22 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 17:08:22 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 17:08:22 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 17:08:22 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 17:08:22 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjUxMDI4NjksIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.hGhTG2BB-X6GzcbOUXxKGcGBUVzsJnlynRxMFRJN2KI"}
-20-04-09 17:08:22 INFO send_email send_email.py 24 邮件发送完成！
-20-04-09 17:08:23 INFO <module> run.py 13 ================================== 测试结束 ==================================
-20-04-09 17:13:50 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 17:13:50 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 17:13:50 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 17:13:50 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 17:13:50 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 17:13:50 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 17:13:50 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjU0MzEwMTAsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.NA09emsDgwH7KY8_Jo3ugJlk0eqwiMDHl23V3ukXPlY"}
-20-04-09 17:14:50 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 17:14:50 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 17:14:50 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 17:14:50 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 17:14:50 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 17:14:50 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 17:14:50 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjU0OTEwNzcsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.XKz-ezKOXyotb935EtydY1ndWtm1LxjuiHjTTY3DumA"}
-20-04-09 17:15:20 INFO <module> run.py 6 ================================== 测试开始 ==================================
-20-04-09 17:15:20 INFO case_log case_log.py 4 测试名称：test_1_token_1
-20-04-09 17:15:20 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
-20-04-09 17:15:20 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
-20-04-09 17:15:20 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
-20-04-09 17:15:20 INFO case_log case_log.py 8 预期结果：{"token":"bas
-20-04-09 17:15:20 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY0MjU1MjA4NzEsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.DMvGf4oiMO48kCr9d5WzjBQhyyXF03XXsQAkoNVp8n4"}
-20-04-09 17:15:21 INFO send_email send_email.py 24 邮件发送完成！
-20-04-09 17:15:21 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:04:41 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:04:41 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:04:41 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:04:41 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:04:41 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:04:41 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:04:41 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQwODI5NDEsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.17saa20oMCSHh2XJbJOqPFvUuVfV2yyOTrwT7TcOOSc"}
+20-04-10 15:04:56 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:04:56 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:05:13 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:05:14 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:05:14 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:05:14 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:05:14 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:05:14 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:05:14 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQxMTU3NDIsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.ZMnY42FI3Ph78Lcr5B66ULZCVEFHu79P3CfH-l2OhnE"}
+20-04-10 15:05:33 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:05:34 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:10:14 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:10:15 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:10:15 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:10:15 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:10:15 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:10:15 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:10:15 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ0MTY2NzUsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.wUhKaz55eeNkvB84KN54MBNWDwutPaiSRqfB9V6bxSQ"}
+20-04-10 15:10:47 ERROR send_email send_email.py 26 [Errno 0] Error
+20-04-10 15:12:47 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:12:47 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:12:47 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:12:47 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:12:47 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:12:47 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ1Njg4NjksIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.XvsxMFhdtzAR8vf8wfcgv1UWHSliDx8fuQz-riurjis"}
+20-04-10 15:12:52 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:12:53 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:12:53 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:12:53 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:12:53 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:12:53 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:12:53 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ1NzQ2ODYsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.usE4cIPeGbkLUIoBw1q77aCSEj88Hj1zDVyM-tLqXu0"}
+20-04-10 15:12:53 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:12:53 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:12:58 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:12:58 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:12:58 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:12:58 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:12:58 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:12:58 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:12:58 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ1ODAxNTUsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.lujmXio6-ylxQtQjLFYCpv2WpdS3KAz_yiCydlXkQww"}
+20-04-10 15:12:59 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:12:59 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:13:20 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:13:20 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:13:20 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:13:20 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:13:20 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:13:20 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:13:20 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ2MDI1NTQsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.3R42gLmwhQRDNu4be5Tk78pfYfjbl73chyzyiOYsDOs"}
+20-04-10 15:13:24 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:13:25 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:13:42 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:13:42 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:13:42 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:13:42 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:13:42 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:13:42 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ2MjQ1ODcsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.ZVfruC6DhUz_ACk5oYzsz1CAPitfys_AraAqR7VeTKs"}
+20-04-10 15:13:48 INFO <module> run.py 6 ================================== 测试开始 ==================================
+20-04-10 15:13:48 INFO case_log case_log.py 4 测试名称：test_1_token_1
+20-04-10 15:13:48 INFO case_log case_log.py 5 接口地址：http://permission.backend.test.com/api/auth/jwt/token
+20-04-10 15:13:48 INFO case_log case_log.py 6 请求参数：{"username":"abc","password":"abc"}
+20-04-10 15:13:48 INFO case_log case_log.py 7 请求类型：{"Content-Type":"application/json;charset=UTF-8"}
+20-04-10 15:13:48 INFO case_log case_log.py 8 预期结果：{"token":"bas
+20-04-10 15:13:48 INFO case_log case_log.py 9 实际结果：{"token":"basiceyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJiYXNlNjRTZWNyZXQiOiJNRGs0WmpaaVkyUTBOakl4WkRNM00yTmhaR1UwWlRnek1qWXlOMkkwWmpZPSIsImNsaWVudElkIjoiMTkyLjE2OC4yLjExMSIsImV4cGlyZXNTZWNvbmQiOjE1ODY1MDQ2MzA0MzAsIm90aGVySWQiOiI2IiwidXNlcklkIjozNCwidXNlck5hbWUiOiJhYmMifQ.NVbRy5pSi3FZMIQ_E0Owxhn-BGTeNZuvRybtieLQ_nY"}
+20-04-10 15:13:49 INFO send_email send_email.py 24 邮件发送完成！
+20-04-10 15:13:49 INFO <module> run.py 13 ================================== 测试结束 ==================================
+20-04-10 15:13:55 INFO <module> case_log.py 12 hello

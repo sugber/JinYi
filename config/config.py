@@ -1,17 +1,22 @@
 import logging
 import os
 
+prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+report_file = os.path.join(prj_path,'report', 'report.html')
+data_file = os.path.join(prj_path,'data', 'TestData.xlsx')
+# data_file = r'..\JinYi\data\TestData.xlsx'
+filename = os.path.join(prj_path, 'log', 'log.txt')
+
+
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s %(funcName)s %(filename)s %(lineno)d %(message)s',
     datefmt='%y-%m-%d %H:%M:%S',
-    filename=r'C:\Users\dell\PycharmProjects\JinYi\log\log.txt',
+    filename=filename,
     filemode='a'
 )
 
-prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-report_file = os.path.join(prj_path,'report', 'report.html')
-data_file = r'C:\Users\dell\PycharmProjects\JinYi\data\TestData.xlsx'
 
 
 # 邮件配置
