@@ -1,8 +1,10 @@
 import logging
 import os
+import time
 
 prj_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-report_file = os.path.join(prj_path,'report', 'report.html')
+now = time.strftime("%Y-%m-%d %H_%M_%S")
+report_file = os.path.join(prj_path,'report', now + '_aizuji.html')
 data_file = os.path.join(prj_path,'data', 'TestData.xlsx')
 # data_file = r'..\JinYi\data\TestData.xlsx'
 filename = os.path.join(prj_path, 'log', 'log.txt')
